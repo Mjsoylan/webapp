@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <!-- Meta tags-->
+    <style>
+      .skip-link {
+        position: absolute;
+        top: -3em;
+        background: #fff;
+      }
+
+      .skip-link:focus {
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to main content</a>
+    <header>
+      <h1>LOGO</h1>
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact us</a></li>
+        </ul>
+        <form method="GET" action="/search">
+          <label for="search">
+            Search: <input id="search" name="q" type="search" />
+          </label>
+          <input type="submit" />
+        </form>
+      </nav>
+    </header>
+    <!-- The skip link jumps to here -->
+    <main id="content">
+      <section>
+        <h2>Top Stories</h2>
+        <section>
+          <h3>News</h3>
+          <article>
+            <h4>Story 1</h4>
+            <figure>
+              <img
+                src=""
+                alt="Shadow of Mordor"
+              />
+              <figcaption>
+                Cover art for Middle-earth: Shadow of Mordor
+              </figcaption>
+            </figure>
+            <p>
+              Lorem ipsum dolor sit, <mark>amet consectetur</mark> adipisicing
+              elit. Consequuntur commodi, fuga suscipit vero repellat minus
+              exercitationem sapiente accusantium nostrum odio amet delectus
+              harum nihil eum, dicta quibusdam voluptatum culpa quod.
+            </p>
+            <a href="/page2">Read more</a>
+            <footer>
+              <p>Published <time datetime="2020-18-08">August 18</time></p>
+              <!-- Bruke til å tilegne et menneskelig lesbart datoelement ISO-standard -->
+            </footer>
+          </article>
+          <article>Story 2</article>
+          <article>Story 3</article>
+        </section>
+        <section>
+          <h2>Sport</h2>
+          <article>
+            <details open>
+              <summary>My summary</summary>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+                facere aut autem odio, fugit mollitia, provident quidem minima
+                sapiente harum enim libero obcaecati dolores ullam ea
+                praesentium magnam, iste vel.
+              </p>
+            </details>
+          </article>
+          <article>Story 2</article>
+          <article>Story 3</article>
+        </section>
+      </section>
+      <aside>
+        <p>
+          This is a local sidebar
+        </p>
+      </aside>
+    </main>
+    <footer>Company A</footer>
+  </body>
+</html>
